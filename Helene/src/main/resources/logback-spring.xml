@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <!-- Propiedades que se usará para indicar dónde (qué directorio) almacenar los logs y cómo (nombre del fichero) se llama el fichero -->
+    <property name="LOG_DIR" value="logs" />
+    <property name="LOG_NAME" value="helene" />
+
+    <include resource="org/springframework/boot/logging/logback/defaults.xml"/>
+
+    <springProperty name="LOG_PATH" source="logging.file" defaultValue="logs" />
+
+    <!-- Configuración del log que aparece por consola: Console appender -->
+    <appender name="Console" class="ch.qos.logback.core.ConsoleAppender">
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <!-- Configuración de la traza -->
+            <Pattern>
+                %white(%d{ISO8601}) %highlight(%-5level) [%blue(%t)] %-60.60yellow(%C{20}): %msg%n%throwable
+            </Pattern>
+        </layout>
+    </appender>
+
+    <!-- Configuración para que se almacene el log en un fichero: File Appender -->
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_DIR}/${LOG_NAME}.log</file>
+        <!-- Configuración de la traza que se almacena en el fichero-->
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36}.%M - %msg%n</pattern>
+        </encoder>
+        <!-- Política de rotado de logs: a diario y cuando el fichero llegue a los 10 MB -->
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${LOG_DIR}/${LOG_NAME}_%d{yyyy-MM-dd}.log</fileNamePattern>
+            <maxHistory>7</maxHistory>
+        </rollingPolicy>
+    </appender>
+
+    <!-- Define el nivel mínimo de log para cada appender -->
+    <root level="INFO">
+        <appender-ref ref="FILE"/>
+        <appender-ref ref="Console" />
+    </root>
+</configuration>

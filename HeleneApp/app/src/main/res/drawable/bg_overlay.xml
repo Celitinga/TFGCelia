@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- IMAGEN -->
+    <item>
+        <bitmap
+            android:src="@drawable/background_main"
+            android:gravity="center"/>
+    </item>
+
+    <!-- OSCURECER -->
+    <item>
+        <shape>
+            <gradient
+                android:angle="270"
+                android:startColor="#00000000"
+                android:centerColor="#22000000"
+                android:endColor="#FFFFFF"
+                android:type="linear"/>
+        </shape>
+    </item>
+
+</layer-list>

@@ -1,0 +1,325 @@
+2026-05-21 23:47:49.984 [main] INFO  c.h.backend.HeleneBackendApplication.logStarting - Starting HeleneBackendApplication using Java 21.0.7 with PID 18656 (C:\Users\celia\Desktop\Helene\target\classes started by celia in C:\Users\celia\Desktop\Helene)
+2026-05-21 23:47:49.987 [main] INFO  c.h.backend.HeleneBackendApplication.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+2026-05-21 23:47:50.770 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-21 23:47:50.891 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 115 ms. Found 7 JPA repository interfaces.
+2026-05-21 23:47:51.328 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port 8080 (http)
+2026-05-21 23:47:51.341 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+2026-05-21 23:47:51.341 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.17]
+2026-05-21 23:47:51.401 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+2026-05-21 23:47:51.401 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1386 ms
+2026-05-21 23:47:51.592 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+2026-05-21 23:47:51.715 [main] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7d3c22a5
+2026-05-21 23:47:51.717 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+2026-05-21 23:47:51.753 [main] INFO  org.flywaydb.core.FlywayExecutor.info - Database: jdbc:mysql://localhost:3306/helene_db?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=UTC (MySQL 8.0)
+2026-05-21 23:47:51.812 [main] INFO  o.f.core.internal.command.DbValidate.info - Successfully validated 2 migrations (execution time 00:00.035s)
+2026-05-21 23:47:51.823 [main] INFO  o.f.core.internal.command.DbMigrate.info - Current version of schema `helene_db`: 1
+2026-05-21 23:47:51.827 [main] INFO  o.f.core.internal.command.DbMigrate.info - Schema `helene_db` is up to date. No migration necessary.
+2026-05-21 23:47:51.848 [main] INFO  o.f.core.internal.command.DbValidate.info - Successfully validated 2 migrations (execution time 00:00.003s)
+2026-05-21 23:47:51.855 [main] INFO  o.f.core.internal.command.DbMigrate.info - Current version of schema `helene_db`: 1
+2026-05-21 23:47:51.855 [main] INFO  o.f.core.internal.command.DbMigrate.info - Schema `helene_db` is up to date. No migration necessary.
+2026-05-21 23:47:51.923 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-05-21 23:47:51.995 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.4.1.Final
+2026-05-21 23:47:52.028 [main] INFO  o.h.c.i.RegionFactoryInitiator.initiateService - HHH000026: Second-level cache disabled
+2026-05-21 23:47:52.243 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo.addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-21 23:47:52.288 [main] WARN  org.hibernate.orm.deprecation.constructDialect - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-05-21 23:47:52.289 [main] WARN  org.hibernate.orm.deprecation.logSelectedDialect - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2026-05-21 23:47:52.304 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry.addDescriptor - addDescriptor(12, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@13ddaffb) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@5a31abe9)
+2026-05-21 23:47:52.304 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry.addDescriptor - addDescriptor(-9, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@2dacda9a) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@699bb304)
+2026-05-21 23:47:52.304 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry.addDescriptor - addDescriptor(-3, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@17477bbb) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@40fee459)
+2026-05-21 23:47:52.304 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry.addDescriptor - addDescriptor(4003, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@bcd9ed6) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@3ffa0f38)
+2026-05-21 23:47:52.306 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry.addDescriptor - addDescriptor(4001, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@13cc31df) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@24a7d3d3)
+2026-05-21 23:47:52.306 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry.addDescriptor - addDescriptor(4002, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@43fbc2bf) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@2c978637)
+2026-05-21 23:47:52.306 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry.addDescriptor - addDescriptor(2004, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@5e2718b3) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@440461ef)
+2026-05-21 23:47:52.306 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry.addDescriptor - addDescriptor(2005, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@5977bdea) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@49c13ecd)
+2026-05-21 23:47:52.306 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry.addDescriptor - addDescriptor(2011, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@2f4545c6) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@482942d8)
+2026-05-21 23:47:53.159 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-21 23:47:53.235 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-21 23:47:53.526 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory.<clinit> - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-21 23:47:54.992 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-21 23:47:55.013 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration.getOrDeducePassword - 
+
+Using generated security password: e720620b-9c00-4873-97e0-0aad3783ae6e
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-05-21 23:47:55.150 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.handlerMethodsInitialized - 49 mappings in 'requestMappingHandlerMapping'
+2026-05-21 23:47:55.205 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping.logMappings - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-05-21 23:47:55.230 [main] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1c595228, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1e64ee13, org.springframework.security.web.context.SecurityContextHolderFilter@6d0e90d5, org.springframework.security.web.header.HeaderWriterFilter@54856056, org.springframework.web.filter.CorsFilter@348c2548, org.springframework.security.web.authentication.logout.LogoutFilter@95504a0, com.helene.backend.security.JwtAuthenticationFilter@3ace6346, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@48c7773, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@306ea73f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@73a4efb4, org.springframework.security.web.access.ExceptionTranslationFilter@24c036b7, org.springframework.security.web.access.intercept.AuthorizationFilter@523a10a0]
+2026-05-21 23:47:55.282 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter.initControllerAdviceCache - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-05-21 23:47:55.311 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-05-21 23:47:55.524 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port 8080 (http) with context path ''
+2026-05-21 23:47:55.533 [main] INFO  c.h.backend.HeleneBackendApplication.logStarted - Started HeleneBackendApplication in 5.973 seconds (process running for 6.507)
+2026-05-21 23:47:55.602 [main] DEBUG org.hibernate.SQL.logStatement - select count(*) from categorias c1_0
+2026-05-21 23:47:55.618 [main] DEBUG org.hibernate.SQL.logStatement - select count(*) from roles r1_0
+2026-05-21 23:49:00.925 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-21 23:49:00.925 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+2026-05-21 23:49:00.925 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.initMultipartResolver - Detected StandardServletMultipartResolver
+2026-05-21 23:49:00.925 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.initLocaleResolver - Detected AcceptHeaderLocaleResolver
+2026-05-21 23:49:00.925 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.initThemeResolver - Detected FixedThemeResolver
+2026-05-21 23:49:00.926 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.initRequestToViewNameTranslator - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@4e75cf7c
+2026-05-21 23:49:00.926 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.initFlashMapManager - Detected org.springframework.web.servlet.support.SessionFlashMapManager@5dac488d
+2026-05-21 23:49:00.926 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.initServletBean - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-05-21 23:49:00.926 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 1 ms
+2026-05-21 23:49:00.975 [http-nio-8080-exec-1] ERROR c.h.backend.security.JwtEntryPoint.commence - Unauthorized error: Full authentication is required to access this resource
+2026-05-21 23:49:01.032 [http-nio-8080-exec-2] ERROR c.h.backend.security.JwtEntryPoint.commence - Unauthorized error: Full authentication is required to access this resource
+2026-05-21 23:49:11.539 [http-nio-8080-exec-3] ERROR c.h.backend.security.JwtEntryPoint.commence - Unauthorized error: Full authentication is required to access this resource
+2026-05-21 23:49:11.602 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - GET "/api/productos/categoria/1", parameters={}
+2026-05-21 23:49:11.603 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to com.helene.backend.controller.ProductoController#listarPorCategoria(Long)
+2026-05-21 23:49:11.614 [http-nio-8080-exec-4] INFO  c.h.b.controller.ProductoController.listarPorCategoria - Listando productos de la categoría id=1
+2026-05-21 23:49:11.638 [http-nio-8080-exec-4] DEBUG org.hibernate.SQL.logStatement - select p1_0.id,p1_0.categoria_id,p1_0.descripcion,p1_0.descuento,p1_0.imagen_url,p1_0.nombre,p1_0.precio_final,p1_0.precio_original from productos p1_0 left join categorias c1_0 on c1_0.id=p1_0.categoria_id where c1_0.id=?
+2026-05-21 23:49:11.649 [http-nio-8080-exec-4] DEBUG org.hibernate.SQL.logStatement - select c1_0.id,c1_0.nombre from categorias c1_0 where c1_0.id=?
+2026-05-21 23:49:11.660 [http-nio-8080-exec-4] INFO  c.h.b.controller.ProductoController.listarPorCategoria - Se devuelven 2 productos para categoría id=1
+2026-05-21 23:49:11.666 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.writeWithMessageConverters - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-05-21 23:49:11.667 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.traceDebug - Writing [[ProductoDTO(id=2, nombre=Agua micelar, precioOriginal=29.99, precioFinal=29.99, descuento=0, descri (truncated)...]
+2026-05-21 23:49:11.677 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Completed 200 OK
+2026-05-21 23:49:11.684 [http-nio-8080-exec-5] ERROR c.h.backend.security.JwtEntryPoint.commence - Unauthorized error: Full authentication is required to access this resource
+2026-05-21 23:51:18.184 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-21 23:51:18.186 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+2026-05-21 23:51:18.192 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+2026-05-21 23:51:21.522 [main] INFO  c.h.backend.HeleneBackendApplication.logStarting - Starting HeleneBackendApplication using Java 21.0.7 with PID 15628 (C:\Users\celia\Desktop\Helene\target\classes started by celia in C:\Users\celia\Desktop\Helene)
+2026-05-21 23:51:21.524 [main] INFO  c.h.backend.HeleneBackendApplication.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+2026-05-21 23:51:22.186 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-21 23:51:22.319 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 128 ms. Found 7 JPA repository interfaces.
+2026-05-21 23:51:22.746 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port 8080 (http)
+2026-05-21 23:51:22.754 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+2026-05-21 23:51:22.754 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.17]
+2026-05-21 23:51:22.808 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+2026-05-21 23:51:22.808 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1251 ms
+2026-05-21 23:51:22.996 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+2026-05-21 23:51:23.106 [main] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2b1a901d
+2026-05-21 23:51:23.108 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+2026-05-21 23:51:23.143 [main] INFO  org.flywaydb.core.FlywayExecutor.info - Database: jdbc:mysql://localhost:3306/helene_db?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=UTC (MySQL 8.0)
+2026-05-21 23:51:23.187 [main] INFO  o.f.core.internal.command.DbValidate.info - Successfully validated 2 migrations (execution time 00:00.021s)
+2026-05-21 23:51:23.198 [main] INFO  o.f.core.internal.command.DbMigrate.info - Current version of schema `helene_db`: 1
+2026-05-21 23:51:23.201 [main] INFO  o.f.core.internal.command.DbMigrate.info - Schema `helene_db` is up to date. No migration necessary.
+2026-05-21 23:51:23.225 [main] INFO  o.f.core.internal.command.DbValidate.info - Successfully validated 2 migrations (execution time 00:00.004s)
+2026-05-21 23:51:23.233 [main] INFO  o.f.core.internal.command.DbMigrate.info - Current version of schema `helene_db`: 1
+2026-05-21 23:51:23.233 [main] INFO  o.f.core.internal.command.DbMigrate.info - Schema `helene_db` is up to date. No migration necessary.
+2026-05-21 23:51:23.293 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-05-21 23:51:23.337 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.4.1.Final
+2026-05-21 23:51:23.362 [main] INFO  o.h.c.i.RegionFactoryInitiator.initiateService - HHH000026: Second-level cache disabled
+2026-05-21 23:51:23.550 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo.addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-21 23:51:23.592 [main] WARN  org.hibernate.orm.deprecation.constructDialect - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-05-21 23:51:23.593 [main] WARN  org.hibernate.orm.deprecation.logSelectedDialect - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2026-05-21 23:51:23.608 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry.addDescriptor - addDescriptor(12, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@62f7d7bd) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@de63949)
+2026-05-21 23:51:23.608 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry.addDescriptor - addDescriptor(-9, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@5c5c784c) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@6a299b9d)
+2026-05-21 23:51:23.608 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry.addDescriptor - addDescriptor(-3, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@363fe35a) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@a2fb8a5)
+2026-05-21 23:51:23.608 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry.addDescriptor - addDescriptor(4003, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@350e3fb4) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@13ddaffb)
+2026-05-21 23:51:23.608 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry.addDescriptor - addDescriptor(4001, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@5a31abe9) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@2dacda9a)
+2026-05-21 23:51:23.608 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry.addDescriptor - addDescriptor(4002, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@699bb304) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@17477bbb)
+2026-05-21 23:51:23.608 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry.addDescriptor - addDescriptor(2004, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@40fee459) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@bcd9ed6)
+2026-05-21 23:51:23.610 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry.addDescriptor - addDescriptor(2005, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@3ffa0f38) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@13cc31df)
+2026-05-21 23:51:23.610 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry.addDescriptor - addDescriptor(2011, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@24a7d3d3) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@43fbc2bf)
+2026-05-21 23:51:24.388 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-21 23:51:24.455 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-21 23:51:24.735 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory.<clinit> - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-21 23:51:26.003 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-21 23:51:26.022 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration.getOrDeducePassword - 
+
+Using generated security password: f00b0880-6647-4a23-b853-f67901a1dac2
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-05-21 23:51:26.132 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.handlerMethodsInitialized - 49 mappings in 'requestMappingHandlerMapping'
+2026-05-21 23:51:26.194 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping.logMappings - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-05-21 23:51:26.222 [main] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@24af33a1, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2ad51ba4, org.springframework.security.web.context.SecurityContextHolderFilter@776a3e76, org.springframework.security.web.header.HeaderWriterFilter@698cc99d, org.springframework.web.filter.CorsFilter@109f7381, org.springframework.security.web.authentication.logout.LogoutFilter@70d7282a, com.helene.backend.security.JwtAuthenticationFilter@6befbb12, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@102ee705, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@24c036b7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@d5f3118, org.springframework.security.web.access.ExceptionTranslationFilter@387f53cf, org.springframework.security.web.access.intercept.AuthorizationFilter@3eb60858]
+2026-05-21 23:51:26.276 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter.initControllerAdviceCache - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-05-21 23:51:26.305 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-05-21 23:51:26.483 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port 8080 (http) with context path ''
+2026-05-21 23:51:26.492 [main] INFO  c.h.backend.HeleneBackendApplication.logStarted - Started HeleneBackendApplication in 5.366 seconds (process running for 5.866)
+2026-05-21 23:51:26.544 [main] DEBUG org.hibernate.SQL.logStatement - select count(*) from roles r1_0
+2026-05-21 23:51:26.553 [main] DEBUG org.hibernate.SQL.logStatement - select count(*) from categorias c1_0
+2026-05-21 23:51:28.883 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-21 23:51:28.883 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+2026-05-21 23:51:28.883 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.initMultipartResolver - Detected StandardServletMultipartResolver
+2026-05-21 23:51:28.884 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.initLocaleResolver - Detected AcceptHeaderLocaleResolver
+2026-05-21 23:51:28.884 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.initThemeResolver - Detected FixedThemeResolver
+2026-05-21 23:51:28.884 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.initRequestToViewNameTranslator - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@303b9e6e
+2026-05-21 23:51:28.885 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.initFlashMapManager - Detected org.springframework.web.servlet.support.SessionFlashMapManager@4945b25f
+2026-05-21 23:51:28.885 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.initServletBean - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-05-21 23:51:28.885 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 2 ms
+2026-05-21 23:51:28.938 [http-nio-8080-exec-1] ERROR c.h.backend.security.JwtEntryPoint.commence - Unauthorized error: Full authentication is required to access this resource
+2026-05-21 23:51:36.039 [http-nio-8080-exec-2] ERROR c.h.backend.security.JwtEntryPoint.commence - Unauthorized error: Full authentication is required to access this resource
+2026-05-21 23:54:58.840 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-21 23:54:58.841 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+2026-05-21 23:54:58.846 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+2026-05-21 23:55:03.054 [main] INFO  c.h.backend.HeleneBackendApplication.logStarting - Starting HeleneBackendApplication using Java 21.0.7 with PID 25516 (C:\Users\celia\Desktop\Helene\target\classes started by celia in C:\Users\celia\Desktop\Helene)
+2026-05-21 23:55:03.056 [main] INFO  c.h.backend.HeleneBackendApplication.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+2026-05-21 23:55:03.662 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-21 23:55:03.790 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 122 ms. Found 7 JPA repository interfaces.
+2026-05-21 23:55:04.200 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port 8080 (http)
+2026-05-21 23:55:04.209 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+2026-05-21 23:55:04.209 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.17]
+2026-05-21 23:55:04.272 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+2026-05-21 23:55:04.273 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1186 ms
+2026-05-21 23:55:04.454 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+2026-05-21 23:55:04.561 [main] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1a7d0c9f
+2026-05-21 23:55:04.563 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+2026-05-21 23:55:04.597 [main] INFO  org.flywaydb.core.FlywayExecutor.info - Database: jdbc:mysql://localhost:3306/helene_db?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=UTC (MySQL 8.0)
+2026-05-21 23:55:04.639 [main] INFO  o.f.core.internal.command.DbValidate.info - Successfully validated 2 migrations (execution time 00:00.021s)
+2026-05-21 23:55:04.649 [main] INFO  o.f.core.internal.command.DbMigrate.info - Current version of schema `helene_db`: 1
+2026-05-21 23:55:04.651 [main] INFO  o.f.core.internal.command.DbMigrate.info - Schema `helene_db` is up to date. No migration necessary.
+2026-05-21 23:55:04.673 [main] INFO  o.f.core.internal.command.DbValidate.info - Successfully validated 2 migrations (execution time 00:00.004s)
+2026-05-21 23:55:04.679 [main] INFO  o.f.core.internal.command.DbMigrate.info - Current version of schema `helene_db`: 1
+2026-05-21 23:55:04.679 [main] INFO  o.f.core.internal.command.DbMigrate.info - Schema `helene_db` is up to date. No migration necessary.
+2026-05-21 23:55:04.741 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-05-21 23:55:04.788 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.4.1.Final
+2026-05-21 23:55:04.811 [main] INFO  o.h.c.i.RegionFactoryInitiator.initiateService - HHH000026: Second-level cache disabled
+2026-05-21 23:55:04.988 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo.addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-21 23:55:05.032 [main] WARN  org.hibernate.orm.deprecation.constructDialect - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-05-21 23:55:05.032 [main] WARN  org.hibernate.orm.deprecation.logSelectedDialect - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2026-05-21 23:55:05.046 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry.addDescriptor - addDescriptor(12, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@575c23f1) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@62f7d7bd)
+2026-05-21 23:55:05.047 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry.addDescriptor - addDescriptor(-9, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@de63949) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@5c5c784c)
+2026-05-21 23:55:05.047 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry.addDescriptor - addDescriptor(-3, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@6a299b9d) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@363fe35a)
+2026-05-21 23:55:05.047 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry.addDescriptor - addDescriptor(4003, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@a2fb8a5) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@350e3fb4)
+2026-05-21 23:55:05.047 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry.addDescriptor - addDescriptor(4001, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@13ddaffb) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@5a31abe9)
+2026-05-21 23:55:05.047 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry.addDescriptor - addDescriptor(4002, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@2dacda9a) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@699bb304)
+2026-05-21 23:55:05.047 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry.addDescriptor - addDescriptor(2004, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@17477bbb) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@40fee459)
+2026-05-21 23:55:05.047 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry.addDescriptor - addDescriptor(2005, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@bcd9ed6) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@3ffa0f38)
+2026-05-21 23:55:05.047 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry.addDescriptor - addDescriptor(2011, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@13cc31df) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@24a7d3d3)
+2026-05-21 23:55:05.801 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-21 23:55:05.865 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-21 23:55:06.142 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory.<clinit> - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-21 23:55:07.459 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-21 23:55:07.479 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration.getOrDeducePassword - 
+
+Using generated security password: 629fa97e-454c-4675-9666-90baa0c7fddf
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-05-21 23:55:07.590 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.handlerMethodsInitialized - 49 mappings in 'requestMappingHandlerMapping'
+2026-05-21 23:55:07.645 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping.logMappings - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-05-21 23:55:07.666 [main] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@14f13587, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@24af33a1, org.springframework.security.web.context.SecurityContextHolderFilter@f9769ae, org.springframework.security.web.header.HeaderWriterFilter@2cda8be9, org.springframework.web.filter.CorsFilter@2ad51ba4, org.springframework.security.web.authentication.logout.LogoutFilter@2df92850, com.helene.backend.security.JwtAuthenticationFilter@6befbb12, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@78a5c127, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@102ee705, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@109f7381, org.springframework.security.web.access.ExceptionTranslationFilter@4f8d7222, org.springframework.security.web.access.intercept.AuthorizationFilter@533c7a52]
+2026-05-21 23:55:07.720 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter.initControllerAdviceCache - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-05-21 23:55:07.751 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-05-21 23:55:07.937 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port 8080 (http) with context path ''
+2026-05-21 23:55:07.943 [main] INFO  c.h.backend.HeleneBackendApplication.logStarted - Started HeleneBackendApplication in 5.262 seconds (process running for 5.744)
+2026-05-21 23:55:07.994 [main] DEBUG org.hibernate.SQL.logStatement - select count(*) from categorias c1_0
+2026-05-21 23:55:08.003 [main] DEBUG org.hibernate.SQL.logStatement - select count(*) from roles r1_0
+2026-05-21 23:55:10.297 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-21 23:55:10.297 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+2026-05-21 23:55:10.297 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.initMultipartResolver - Detected StandardServletMultipartResolver
+2026-05-21 23:55:10.297 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.initLocaleResolver - Detected AcceptHeaderLocaleResolver
+2026-05-21 23:55:10.298 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.initThemeResolver - Detected FixedThemeResolver
+2026-05-21 23:55:10.298 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.initRequestToViewNameTranslator - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@1eb85e83
+2026-05-21 23:55:10.298 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.initFlashMapManager - Detected org.springframework.web.servlet.support.SessionFlashMapManager@1bba5848
+2026-05-21 23:55:10.299 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.initServletBean - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-05-21 23:55:10.299 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 2 ms
+2026-05-21 23:55:10.349 [http-nio-8080-exec-1] ERROR c.h.backend.security.JwtEntryPoint.commence - Unauthorized error: Full authentication is required to access this resource
+2026-05-21 23:55:13.024 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - GET "/api/pedidos/usuario/5", parameters={}
+2026-05-21 23:55:13.025 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to com.helene.backend.controller.PedidoController#listarPorUsuario(Long)
+2026-05-21 23:55:13.037 [http-nio-8080-exec-2] INFO  c.h.b.controller.PedidoController.listarPorUsuario - Obteniendo pedidos del usuarioId=5
+2026-05-21 23:55:13.061 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL.logStatement - select p1_0.id,p1_0.coste_envio,p1_0.descuento_aplicado,p1_0.calle,p1_0.ciudad,p1_0.codigo_postal,p1_0.instrucciones_especiales,p1_0.nombre_completo,p1_0.numero,p1_0.pais,p1_0.piso,p1_0.provincia,p1_0.telefono,p1_0.estado,p1_0.fecha_creacion,p1_0.fecha_entrega,p1_0.metodo_pago,p1_0.notas,p1_0.numero_pedido,p1_0.paypal_payment_id,p1_0.subtotal,p1_0.total,p1_0.usuario_id from pedidos p1_0 left join usuarios u1_0 on u1_0.id=p1_0.usuario_id where u1_0.id=?
+2026-05-21 23:55:13.094 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL.logStatement - select u1_0.id,u1_0.email,u1_0.fecha_registro,u1_0.password,r1_0.usuario_id,r1_1.id,r1_1.nombre,u1_0.username from usuarios u1_0 left join usuarios_roles r1_0 on u1_0.id=r1_0.usuario_id left join roles r1_1 on r1_1.id=r1_0.rol_id where u1_0.id=?
+2026-05-21 23:55:13.103 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL.logStatement - select i1_0.pedido_id,i1_0.id,i1_0.cantidad,i1_0.descuento_aplicado,i1_0.imagen_producto,i1_0.nombre_producto,i1_0.precio_unitario,i1_0.producto_id,i1_0.subtotal from pedido_items i1_0 where i1_0.pedido_id=?
+2026-05-21 23:55:13.108 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL.logStatement - select i1_0.pedido_id,i1_0.id,i1_0.cantidad,i1_0.descuento_aplicado,i1_0.imagen_producto,i1_0.nombre_producto,i1_0.precio_unitario,i1_0.producto_id,i1_0.subtotal from pedido_items i1_0 where i1_0.pedido_id=?
+2026-05-21 23:55:13.109 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL.logStatement - select i1_0.pedido_id,i1_0.id,i1_0.cantidad,i1_0.descuento_aplicado,i1_0.imagen_producto,i1_0.nombre_producto,i1_0.precio_unitario,i1_0.producto_id,i1_0.subtotal from pedido_items i1_0 where i1_0.pedido_id=?
+2026-05-21 23:55:13.110 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL.logStatement - select p1_0.id,p1_0.categoria_id,c1_0.id,c1_0.nombre,p1_0.descripcion,p1_0.descuento,p1_0.imagen_url,p1_0.nombre,p1_0.precio_final,p1_0.precio_original from productos p1_0 join categorias c1_0 on c1_0.id=p1_0.categoria_id where p1_0.id=?
+2026-05-21 23:55:13.115 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL.logStatement - select i1_0.pedido_id,i1_0.id,i1_0.cantidad,i1_0.descuento_aplicado,i1_0.imagen_producto,i1_0.nombre_producto,i1_0.precio_unitario,i1_0.producto_id,i1_0.subtotal from pedido_items i1_0 where i1_0.pedido_id=?
+2026-05-21 23:55:13.116 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL.logStatement - select p1_0.id,p1_0.categoria_id,c1_0.id,c1_0.nombre,p1_0.descripcion,p1_0.descuento,p1_0.imagen_url,p1_0.nombre,p1_0.precio_final,p1_0.precio_original from productos p1_0 join categorias c1_0 on c1_0.id=p1_0.categoria_id where p1_0.id=?
+2026-05-21 23:55:13.117 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL.logStatement - select i1_0.pedido_id,i1_0.id,i1_0.cantidad,i1_0.descuento_aplicado,i1_0.imagen_producto,i1_0.nombre_producto,i1_0.precio_unitario,i1_0.producto_id,i1_0.subtotal from pedido_items i1_0 where i1_0.pedido_id=?
+2026-05-21 23:55:13.118 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL.logStatement - select i1_0.pedido_id,i1_0.id,i1_0.cantidad,i1_0.descuento_aplicado,i1_0.imagen_producto,i1_0.nombre_producto,i1_0.precio_unitario,i1_0.producto_id,i1_0.subtotal from pedido_items i1_0 where i1_0.pedido_id=?
+2026-05-21 23:55:13.119 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL.logStatement - select p1_0.id,p1_0.categoria_id,c1_0.id,c1_0.nombre,p1_0.descripcion,p1_0.descuento,p1_0.imagen_url,p1_0.nombre,p1_0.precio_final,p1_0.precio_original from productos p1_0 join categorias c1_0 on c1_0.id=p1_0.categoria_id where p1_0.id=?
+2026-05-21 23:55:13.119 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL.logStatement - select i1_0.pedido_id,i1_0.id,i1_0.cantidad,i1_0.descuento_aplicado,i1_0.imagen_producto,i1_0.nombre_producto,i1_0.precio_unitario,i1_0.producto_id,i1_0.subtotal from pedido_items i1_0 where i1_0.pedido_id=?
+2026-05-21 23:55:13.120 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL.logStatement - select i1_0.pedido_id,i1_0.id,i1_0.cantidad,i1_0.descuento_aplicado,i1_0.imagen_producto,i1_0.nombre_producto,i1_0.precio_unitario,i1_0.producto_id,i1_0.subtotal from pedido_items i1_0 where i1_0.pedido_id=?
+2026-05-21 23:55:13.121 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL.logStatement - select i1_0.pedido_id,i1_0.id,i1_0.cantidad,i1_0.descuento_aplicado,i1_0.imagen_producto,i1_0.nombre_producto,i1_0.precio_unitario,i1_0.producto_id,i1_0.subtotal from pedido_items i1_0 where i1_0.pedido_id=?
+2026-05-21 23:55:13.122 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL.logStatement - select i1_0.pedido_id,i1_0.id,i1_0.cantidad,i1_0.descuento_aplicado,i1_0.imagen_producto,i1_0.nombre_producto,i1_0.precio_unitario,i1_0.producto_id,i1_0.subtotal from pedido_items i1_0 where i1_0.pedido_id=?
+2026-05-21 23:55:13.122 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL.logStatement - select p1_0.id,p1_0.categoria_id,c1_0.id,c1_0.nombre,p1_0.descripcion,p1_0.descuento,p1_0.imagen_url,p1_0.nombre,p1_0.precio_final,p1_0.precio_original from productos p1_0 join categorias c1_0 on c1_0.id=p1_0.categoria_id where p1_0.id=?
+2026-05-21 23:55:13.124 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL.logStatement - select i1_0.pedido_id,i1_0.id,i1_0.cantidad,i1_0.descuento_aplicado,i1_0.imagen_producto,i1_0.nombre_producto,i1_0.precio_unitario,i1_0.producto_id,i1_0.subtotal from pedido_items i1_0 where i1_0.pedido_id=?
+2026-05-21 23:55:13.125 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL.logStatement - select i1_0.pedido_id,i1_0.id,i1_0.cantidad,i1_0.descuento_aplicado,i1_0.imagen_producto,i1_0.nombre_producto,i1_0.precio_unitario,i1_0.producto_id,i1_0.subtotal from pedido_items i1_0 where i1_0.pedido_id=?
+2026-05-21 23:55:13.125 [http-nio-8080-exec-2] INFO  c.h.b.controller.PedidoController.listarPorUsuario - Se devuelven 12 pedidos para usuarioId=5
+2026-05-21 23:55:13.132 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor.writeWithMessageConverters - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-05-21 23:55:13.139 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor.traceDebug - Writing [[PedidoDTO(id=39, numeroPedido=HEL-2026-40366, fechaCreacion=2026-05-19T15:39:00.371511, fechaEntreg (truncated)...]
+2026-05-21 23:55:13.155 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Completed 200 OK
+2026-05-21 23:58:03.316 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-21 23:58:03.318 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+2026-05-21 23:58:03.323 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+2026-05-21 23:58:06.767 [main] INFO  c.h.backend.HeleneBackendApplication.logStarting - Starting HeleneBackendApplication using Java 21.0.7 with PID 3372 (C:\Users\celia\Desktop\Helene\target\classes started by celia in C:\Users\celia\Desktop\Helene)
+2026-05-21 23:58:06.769 [main] INFO  c.h.backend.HeleneBackendApplication.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+2026-05-21 23:58:07.360 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-21 23:58:07.481 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 116 ms. Found 7 JPA repository interfaces.
+2026-05-21 23:58:07.903 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port 8080 (http)
+2026-05-21 23:58:07.912 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+2026-05-21 23:58:07.912 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.17]
+2026-05-21 23:58:07.978 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+2026-05-21 23:58:07.979 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1182 ms
+2026-05-21 23:58:08.159 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+2026-05-21 23:58:08.268 [main] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@59127611
+2026-05-21 23:58:08.270 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+2026-05-21 23:58:08.303 [main] INFO  org.flywaydb.core.FlywayExecutor.info - Database: jdbc:mysql://localhost:3306/helene_db?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=UTC (MySQL 8.0)
+2026-05-21 23:58:08.345 [main] INFO  o.f.core.internal.command.DbValidate.info - Successfully validated 2 migrations (execution time 00:00.021s)
+2026-05-21 23:58:08.356 [main] INFO  o.f.core.internal.command.DbMigrate.info - Current version of schema `helene_db`: 1
+2026-05-21 23:58:08.359 [main] INFO  o.f.core.internal.command.DbMigrate.info - Schema `helene_db` is up to date. No migration necessary.
+2026-05-21 23:58:08.382 [main] INFO  o.f.core.internal.command.DbValidate.info - Successfully validated 2 migrations (execution time 00:00.003s)
+2026-05-21 23:58:08.390 [main] INFO  o.f.core.internal.command.DbMigrate.info - Current version of schema `helene_db`: 1
+2026-05-21 23:58:08.391 [main] INFO  o.f.core.internal.command.DbMigrate.info - Schema `helene_db` is up to date. No migration necessary.
+2026-05-21 23:58:08.453 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-05-21 23:58:08.499 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.4.1.Final
+2026-05-21 23:58:08.523 [main] INFO  o.h.c.i.RegionFactoryInitiator.initiateService - HHH000026: Second-level cache disabled
+2026-05-21 23:58:08.702 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo.addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-21 23:58:08.741 [main] WARN  org.hibernate.orm.deprecation.constructDialect - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-05-21 23:58:08.742 [main] WARN  org.hibernate.orm.deprecation.logSelectedDialect - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2026-05-21 23:58:08.756 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry.addDescriptor - addDescriptor(12, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@5c5c784c) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@6a299b9d)
+2026-05-21 23:58:08.757 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry.addDescriptor - addDescriptor(-9, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@363fe35a) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@a2fb8a5)
+2026-05-21 23:58:08.757 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry.addDescriptor - addDescriptor(-3, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@350e3fb4) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@13ddaffb)
+2026-05-21 23:58:08.757 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry.addDescriptor - addDescriptor(4003, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@5a31abe9) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@2dacda9a)
+2026-05-21 23:58:08.757 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry.addDescriptor - addDescriptor(4001, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@699bb304) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@17477bbb)
+2026-05-21 23:58:08.757 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry.addDescriptor - addDescriptor(4002, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@40fee459) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@bcd9ed6)
+2026-05-21 23:58:08.757 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry.addDescriptor - addDescriptor(2004, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@3ffa0f38) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@13cc31df)
+2026-05-21 23:58:08.757 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry.addDescriptor - addDescriptor(2005, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@24a7d3d3) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@43fbc2bf)
+2026-05-21 23:58:08.757 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry.addDescriptor - addDescriptor(2011, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@2c978637) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@5e2718b3)
+2026-05-21 23:58:09.503 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-21 23:58:09.576 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-21 23:58:09.856 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory.<clinit> - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-21 23:58:11.134 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-21 23:58:11.153 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration.getOrDeducePassword - 
+
+Using generated security password: b805d93e-f08f-44f9-acc9-c882b29abb62
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-05-21 23:58:11.281 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.handlerMethodsInitialized - 49 mappings in 'requestMappingHandlerMapping'
+2026-05-21 23:58:11.331 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping.logMappings - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-05-21 23:58:11.354 [main] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3952621d, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4d7143de, org.springframework.security.web.context.SecurityContextHolderFilter@3374a30c, org.springframework.security.web.header.HeaderWriterFilter@24c036b7, org.springframework.web.filter.CorsFilter@1c595228, org.springframework.security.web.authentication.logout.LogoutFilter@3f2f5454, com.helene.backend.security.JwtAuthenticationFilter@159ac15f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6d0e90d5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1276caf2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1e64ee13, org.springframework.security.web.access.ExceptionTranslationFilter@78a5c127, org.springframework.security.web.access.intercept.AuthorizationFilter@d5f3118]
+2026-05-21 23:58:11.405 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter.initControllerAdviceCache - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-05-21 23:58:11.434 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-05-21 23:58:11.609 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port 8080 (http) with context path ''
+2026-05-21 23:58:11.617 [main] INFO  c.h.backend.HeleneBackendApplication.logStarted - Started HeleneBackendApplication in 5.214 seconds (process running for 5.713)
+2026-05-21 23:58:11.664 [main] DEBUG org.hibernate.SQL.logStatement - select count(*) from categorias c1_0
+2026-05-21 23:58:11.674 [main] DEBUG org.hibernate.SQL.logStatement - select count(*) from roles r1_0
+2026-05-21 23:58:13.708 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-21 23:58:13.708 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+2026-05-21 23:58:13.708 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.initMultipartResolver - Detected StandardServletMultipartResolver
+2026-05-21 23:58:13.708 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.initLocaleResolver - Detected AcceptHeaderLocaleResolver
+2026-05-21 23:58:13.708 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.initThemeResolver - Detected FixedThemeResolver
+2026-05-21 23:58:13.709 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.initRequestToViewNameTranslator - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@22448db4
+2026-05-21 23:58:13.709 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.initFlashMapManager - Detected org.springframework.web.servlet.support.SessionFlashMapManager@28220b56
+2026-05-21 23:58:13.709 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.initServletBean - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-05-21 23:58:13.709 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 1 ms
+2026-05-21 23:58:13.759 [http-nio-8080-exec-1] ERROR c.h.backend.security.JwtEntryPoint.commence - Unauthorized error: Full authentication is required to access this resource
+2026-05-21 23:58:18.948 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - GET "/api/pedidos/usuario/5", parameters={}
+2026-05-21 23:58:18.950 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to com.helene.backend.controller.PedidoController#listarPorUsuario(Long)
+2026-05-21 23:58:18.959 [http-nio-8080-exec-2] INFO  c.h.b.controller.PedidoController.listarPorUsuario - Obteniendo pedidos del usuarioId=5
+2026-05-21 23:58:18.984 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL.logStatement - select p1_0.id,p1_0.coste_envio,p1_0.descuento_aplicado,p1_0.calle,p1_0.ciudad,p1_0.codigo_postal,p1_0.instrucciones_especiales,p1_0.nombre_completo,p1_0.numero,p1_0.pais,p1_0.piso,p1_0.provincia,p1_0.telefono,p1_0.estado,p1_0.fecha_creacion,p1_0.fecha_entrega,p1_0.metodo_pago,p1_0.notas,p1_0.numero_pedido,p1_0.paypal_payment_id,p1_0.subtotal,p1_0.total,p1_0.usuario_id from pedidos p1_0 left join usuarios u1_0 on u1_0.id=p1_0.usuario_id where u1_0.id=?
+2026-05-21 23:58:19.011 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL.logStatement - select u1_0.id,u1_0.email,u1_0.fecha_registro,u1_0.password,r1_0.usuario_id,r1_1.id,r1_1.nombre,u1_0.username from usuarios u1_0 left join usuarios_roles r1_0 on u1_0.id=r1_0.usuario_id left join roles r1_1 on r1_1.id=r1_0.rol_id where u1_0.id=?
+2026-05-21 23:58:19.020 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL.logStatement - select i1_0.pedido_id,i1_0.id,i1_0.cantidad,i1_0.descuento_aplicado,i1_0.imagen_producto,i1_0.nombre_producto,i1_0.precio_unitario,i1_0.producto_id,i1_0.subtotal from pedido_items i1_0 where i1_0.pedido_id=?
+2026-05-21 23:58:19.022 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL.logStatement - select i1_0.pedido_id,i1_0.id,i1_0.cantidad,i1_0.descuento_aplicado,i1_0.imagen_producto,i1_0.nombre_producto,i1_0.precio_unitario,i1_0.producto_id,i1_0.subtotal from pedido_items i1_0 where i1_0.pedido_id=?
+2026-05-21 23:58:19.023 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL.logStatement - select i1_0.pedido_id,i1_0.id,i1_0.cantidad,i1_0.descuento_aplicado,i1_0.imagen_producto,i1_0.nombre_producto,i1_0.precio_unitario,i1_0.producto_id,i1_0.subtotal from pedido_items i1_0 where i1_0.pedido_id=?
+2026-05-21 23:58:19.025 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL.logStatement - select p1_0.id,p1_0.categoria_id,c1_0.id,c1_0.nombre,p1_0.descripcion,p1_0.descuento,p1_0.imagen_url,p1_0.nombre,p1_0.precio_final,p1_0.precio_original from productos p1_0 join categorias c1_0 on c1_0.id=p1_0.categoria_id where p1_0.id=?
+2026-05-21 23:58:19.028 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL.logStatement - select i1_0.pedido_id,i1_0.id,i1_0.cantidad,i1_0.descuento_aplicado,i1_0.imagen_producto,i1_0.nombre_producto,i1_0.precio_unitario,i1_0.producto_id,i1_0.subtotal from pedido_items i1_0 where i1_0.pedido_id=?
+2026-05-21 23:58:19.029 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL.logStatement - select p1_0.id,p1_0.categoria_id,c1_0.id,c1_0.nombre,p1_0.descripcion,p1_0.descuento,p1_0.imagen_url,p1_0.nombre,p1_0.precio_final,p1_0.precio_original from productos p1_0 join categorias c1_0 on c1_0.id=p1_0.categoria_id where p1_0.id=?
+2026-05-21 23:58:19.029 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL.logStatement - select i1_0.pedido_id,i1_0.id,i1_0.cantidad,i1_0.descuento_aplicado,i1_0.imagen_producto,i1_0.nombre_producto,i1_0.precio_unitario,i1_0.producto_id,i1_0.subtotal from pedido_items i1_0 where i1_0.pedido_id=?
+2026-05-21 23:58:19.030 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL.logStatement - select i1_0.pedido_id,i1_0.id,i1_0.cantidad,i1_0.descuento_aplicado,i1_0.imagen_producto,i1_0.nombre_producto,i1_0.precio_unitario,i1_0.producto_id,i1_0.subtotal from pedido_items i1_0 where i1_0.pedido_id=?
+2026-05-21 23:58:19.031 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL.logStatement - select p1_0.id,p1_0.categoria_id,c1_0.id,c1_0.nombre,p1_0.descripcion,p1_0.descuento,p1_0.imagen_url,p1_0.nombre,p1_0.precio_final,p1_0.precio_original from productos p1_0 join categorias c1_0 on c1_0.id=p1_0.categoria_id where p1_0.id=?
+2026-05-21 23:58:19.032 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL.logStatement - select i1_0.pedido_id,i1_0.id,i1_0.cantidad,i1_0.descuento_aplicado,i1_0.imagen_producto,i1_0.nombre_producto,i1_0.precio_unitario,i1_0.producto_id,i1_0.subtotal from pedido_items i1_0 where i1_0.pedido_id=?
+2026-05-21 23:58:19.032 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL.logStatement - select i1_0.pedido_id,i1_0.id,i1_0.cantidad,i1_0.descuento_aplicado,i1_0.imagen_producto,i1_0.nombre_producto,i1_0.precio_unitario,i1_0.producto_id,i1_0.subtotal from pedido_items i1_0 where i1_0.pedido_id=?
+2026-05-21 23:58:19.033 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL.logStatement - select i1_0.pedido_id,i1_0.id,i1_0.cantidad,i1_0.descuento_aplicado,i1_0.imagen_producto,i1_0.nombre_producto,i1_0.precio_unitario,i1_0.producto_id,i1_0.subtotal from pedido_items i1_0 where i1_0.pedido_id=?
+2026-05-21 23:58:19.034 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL.logStatement - select i1_0.pedido_id,i1_0.id,i1_0.cantidad,i1_0.descuento_aplicado,i1_0.imagen_producto,i1_0.nombre_producto,i1_0.precio_unitario,i1_0.producto_id,i1_0.subtotal from pedido_items i1_0 where i1_0.pedido_id=?
+2026-05-21 23:58:19.035 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL.logStatement - select p1_0.id,p1_0.categoria_id,c1_0.id,c1_0.nombre,p1_0.descripcion,p1_0.descuento,p1_0.imagen_url,p1_0.nombre,p1_0.precio_final,p1_0.precio_original from productos p1_0 join categorias c1_0 on c1_0.id=p1_0.categoria_id where p1_0.id=?
+2026-05-21 23:58:19.035 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL.logStatement - select i1_0.pedido_id,i1_0.id,i1_0.cantidad,i1_0.descuento_aplicado,i1_0.imagen_producto,i1_0.nombre_producto,i1_0.precio_unitario,i1_0.producto_id,i1_0.subtotal from pedido_items i1_0 where i1_0.pedido_id=?
+2026-05-21 23:58:19.036 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL.logStatement - select i1_0.pedido_id,i1_0.id,i1_0.cantidad,i1_0.descuento_aplicado,i1_0.imagen_producto,i1_0.nombre_producto,i1_0.precio_unitario,i1_0.producto_id,i1_0.subtotal from pedido_items i1_0 where i1_0.pedido_id=?
+2026-05-21 23:58:19.037 [http-nio-8080-exec-2] INFO  c.h.b.controller.PedidoController.listarPorUsuario - Se devuelven 12 pedidos para usuarioId=5
+2026-05-21 23:58:19.043 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor.writeWithMessageConverters - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-05-21 23:58:19.049 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor.traceDebug - Writing [[PedidoDTO(id=39, numeroPedido=HEL-2026-40366, fechaCreacion=2026-05-19T15:39:00.371511, fechaEntreg (truncated)...]
+2026-05-21 23:58:19.067 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Completed 200 OK
+2026-05-21 23:58:25.040 [http-nio-8080-exec-3] ERROR c.h.backend.security.JwtEntryPoint.commence - Unauthorized error: Full authentication is required to access this resource
