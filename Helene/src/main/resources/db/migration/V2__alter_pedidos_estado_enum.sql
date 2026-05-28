@@ -1,0 +1,8 @@
+ALTER TABLE pedidos
+    MODIFY COLUMN estado ENUM(
+    'PENDIENTE_PAGO',
+    'PAGADO',
+    'CANCELADO',
+    'ENVIADO',
+    'EN_PROCESO'
+    ) NOT NULL;

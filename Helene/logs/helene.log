@@ -1,0 +1,112 @@
+2026-05-27 19:24:29.652 [main] INFO  c.h.backend.HeleneBackendApplication.logStarting - Starting HeleneBackendApplication using Java 21.0.7 with PID 12104 (C:\Users\celia\Desktop\Helene\target\classes started by celia in C:\Users\celia\Desktop\Helene)
+2026-05-27 19:24:29.663 [main] INFO  c.h.backend.HeleneBackendApplication.logStartupProfileInfo - The following 1 profile is active: "prod"
+2026-05-27 19:24:30.457 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-27 19:24:30.597 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 133 ms. Found 7 JPA repository interfaces.
+2026-05-27 19:24:31.052 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port 5000 (http)
+2026-05-27 19:24:31.062 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+2026-05-27 19:24:31.063 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.17]
+2026-05-27 19:24:31.119 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+2026-05-27 19:24:31.119 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1425 ms
+2026-05-27 19:24:31.324 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+2026-05-27 19:24:32.654 [main] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4f6fd101
+2026-05-27 19:24:32.655 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+2026-05-27 19:24:33.025 [main] INFO  org.flywaydb.core.FlywayExecutor.info - Database: jdbc:mysql://54.208.123.27:3306/helene_db (MySQL 8.4)
+2026-05-27 19:24:34.953 [main] INFO  o.f.core.internal.command.DbValidate.info - Successfully validated 3 migrations (execution time 00:00.799s)
+2026-05-27 19:24:36.516 [main] INFO  o.f.core.internal.command.DbMigrate.info - Current version of schema `helene_db`: 2
+2026-05-27 19:24:36.630 [main] INFO  o.f.core.internal.command.DbMigrate.info - Schema `helene_db` is up to date. No migration necessary.
+2026-05-27 19:24:39.642 [main] INFO  o.f.core.internal.command.DbValidate.info - Successfully validated 3 migrations (execution time 00:00.780s)
+2026-05-27 19:24:41.200 [main] INFO  o.f.core.internal.command.DbMigrate.info - Current version of schema `helene_db`: 2
+2026-05-27 19:24:41.312 [main] INFO  o.f.core.internal.command.DbMigrate.info - Schema `helene_db` is up to date. No migration necessary.
+2026-05-27 19:24:42.149 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-05-27 19:24:42.198 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.4.1.Final
+2026-05-27 19:24:42.226 [main] INFO  o.h.c.i.RegionFactoryInitiator.initiateService - HHH000026: Second-level cache disabled
+2026-05-27 19:24:42.419 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo.addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-27 19:24:42.571 [main] WARN  org.hibernate.orm.deprecation.constructDialect - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-05-27 19:24:42.572 [main] WARN  org.hibernate.orm.deprecation.logSelectedDialect - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2026-05-27 19:24:42.586 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry.addDescriptor - addDescriptor(12, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@7aca299e) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@1bf52f10)
+2026-05-27 19:24:42.586 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry.addDescriptor - addDescriptor(-9, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@6148827c) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@4da9da6c)
+2026-05-27 19:24:42.586 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry.addDescriptor - addDescriptor(-3, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@66048c9e) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@543ba2e1)
+2026-05-27 19:24:42.586 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry.addDescriptor - addDescriptor(4003, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@71458178) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@723c5f86)
+2026-05-27 19:24:42.586 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry.addDescriptor - addDescriptor(4001, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@301e5d23) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@393bcd6b)
+2026-05-27 19:24:42.586 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry.addDescriptor - addDescriptor(4002, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@64a8d575) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@74787609)
+2026-05-27 19:24:42.586 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry.addDescriptor - addDescriptor(2004, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@36cdcae0) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@51fa09c7)
+2026-05-27 19:24:42.586 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry.addDescriptor - addDescriptor(2005, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@73db7df0) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@44a485bc)
+2026-05-27 19:24:42.588 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry.addDescriptor - addDescriptor(2011, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@1c66cd02) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@1d535b78)
+2026-05-27 19:24:43.439 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-27 19:24:46.190 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-27 19:24:46.506 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory.<clinit> - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-27 19:24:48.016 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-27 19:24:48.036 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration.getOrDeducePassword - 
+
+Using generated security password: 2694542f-1cc2-41d0-9e12-8fb19ecbb3d3
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-05-27 19:24:48.166 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.handlerMethodsInitialized - 48 mappings in 'requestMappingHandlerMapping'
+2026-05-27 19:24:48.233 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping.logMappings - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-05-27 19:24:48.261 [main] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@645db77c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@60514b5, org.springframework.security.web.context.SecurityContextHolderFilter@552cd6ad, org.springframework.security.web.header.HeaderWriterFilter@b49c85f, org.springframework.web.filter.CorsFilter@41f79561, org.springframework.security.web.authentication.logout.LogoutFilter@70fc5fec, com.helene.backend.security.JwtAuthenticationFilter@5c82031b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6d9020e6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4a3d0660, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1604e941, org.springframework.security.web.access.ExceptionTranslationFilter@39e79726, org.springframework.security.web.access.intercept.AuthorizationFilter@43542dd7]
+2026-05-27 19:24:48.329 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter.initControllerAdviceCache - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-05-27 19:24:48.359 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-05-27 19:24:48.561 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port 5000 (http) with context path ''
+2026-05-27 19:24:48.568 [main] INFO  c.h.backend.HeleneBackendApplication.logStarted - Started HeleneBackendApplication in 19.374 seconds (process running for 20.192)
+2026-05-27 19:24:48.913 [main] DEBUG org.hibernate.SQL.logStatement - select count(*) from roles r1_0
+2026-05-27 19:24:49.499 [main] DEBUG org.hibernate.SQL.logStatement - select count(*) from categorias c1_0
+2026-05-27 19:25:53.434 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-27 19:25:53.436 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+2026-05-27 19:25:54.335 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+2026-05-27 19:54:10.381 [main] INFO  c.h.backend.HeleneBackendApplication.logStarting - Starting HeleneBackendApplication using Java 21.0.7 with PID 26272 (C:\Users\celia\Desktop\Helene\target\classes started by celia in C:\Users\celia\Desktop\Helene)
+2026-05-27 19:54:10.383 [main] INFO  c.h.backend.HeleneBackendApplication.logStartupProfileInfo - The following 1 profile is active: "prod"
+2026-05-27 19:54:11.219 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-27 19:54:11.384 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 159 ms. Found 7 JPA repository interfaces.
+2026-05-27 19:54:11.916 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port 5000 (http)
+2026-05-27 19:54:11.928 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+2026-05-27 19:54:11.929 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.17]
+2026-05-27 19:54:12.008 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+2026-05-27 19:54:12.008 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1583 ms
+2026-05-27 19:54:12.285 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+2026-05-27 19:54:13.645 [main] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4387d2f4
+2026-05-27 19:54:13.647 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+2026-05-27 19:54:13.986 [main] INFO  org.flywaydb.core.FlywayExecutor.info - Database: jdbc:mysql://54.208.123.27:3306/helene_db (MySQL 8.4)
+2026-05-27 19:54:15.725 [main] INFO  o.f.core.internal.command.DbValidate.info - Successfully validated 3 migrations (execution time 00:00.725s)
+2026-05-27 19:54:17.139 [main] INFO  o.f.core.internal.command.DbMigrate.info - Current version of schema `helene_db`: 2
+2026-05-27 19:54:17.308 [main] INFO  o.f.core.internal.command.DbMigrate.info - Schema `helene_db` is up to date. No migration necessary.
+2026-05-27 19:54:20.052 [main] INFO  o.f.core.internal.command.DbValidate.info - Successfully validated 3 migrations (execution time 00:00.714s)
+2026-05-27 19:54:21.513 [main] INFO  o.f.core.internal.command.DbMigrate.info - Current version of schema `helene_db`: 2
+2026-05-27 19:54:21.618 [main] INFO  o.f.core.internal.command.DbMigrate.info - Schema `helene_db` is up to date. No migration necessary.
+2026-05-27 19:54:22.414 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-05-27 19:54:22.485 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.4.1.Final
+2026-05-27 19:54:22.522 [main] INFO  o.h.c.i.RegionFactoryInitiator.initiateService - HHH000026: Second-level cache disabled
+2026-05-27 19:54:22.807 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo.addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-27 19:54:23.071 [main] WARN  org.hibernate.orm.deprecation.constructDialect - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-05-27 19:54:23.072 [main] WARN  org.hibernate.orm.deprecation.logSelectedDialect - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2026-05-27 19:54:23.099 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry.addDescriptor - addDescriptor(12, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@691eb389) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@301770d9)
+2026-05-27 19:54:23.100 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry.addDescriptor - addDescriptor(-9, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@40edc64e) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@1fec9d33)
+2026-05-27 19:54:23.100 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry.addDescriptor - addDescriptor(-3, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@372f7bc) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@8e8ceb3)
+2026-05-27 19:54:23.100 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry.addDescriptor - addDescriptor(4003, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@2699b656) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@5d67b2b3)
+2026-05-27 19:54:23.100 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry.addDescriptor - addDescriptor(4001, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@49bc71b4) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@7efa366)
+2026-05-27 19:54:23.101 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry.addDescriptor - addDescriptor(4002, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@6c2f8ecb) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@c3d4bd7)
+2026-05-27 19:54:23.102 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry.addDescriptor - addDescriptor(2004, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@2626aa35) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@5ca8c904)
+2026-05-27 19:54:23.102 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry.addDescriptor - addDescriptor(2005, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@4c614d8c) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@2ae4c424)
+2026-05-27 19:54:23.102 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry.addDescriptor - addDescriptor(2011, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@3980b44f) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@237aba92)
+2026-05-27 19:54:24.168 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-27 19:54:26.645 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-27 19:54:26.986 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory.<clinit> - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-27 19:54:28.606 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-27 19:54:28.631 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration.getOrDeducePassword - 
+
+Using generated security password: cddd3086-2dfb-4fc0-8b70-9c936e75fe3c
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-05-27 19:54:28.780 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.handlerMethodsInitialized - 48 mappings in 'requestMappingHandlerMapping'
+2026-05-27 19:54:28.851 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping.logMappings - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-05-27 19:54:28.881 [main] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@46775310, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3dddef98, org.springframework.security.web.context.SecurityContextHolderFilter@6c54bc3, org.springframework.security.web.header.HeaderWriterFilter@35a7c477, org.springframework.web.filter.CorsFilter@1e9bc8, org.springframework.security.web.authentication.logout.LogoutFilter@22846025, com.helene.backend.security.JwtAuthenticationFilter@6ef4cbe1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2492f6fb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@155afbd7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@28b992e0, org.springframework.security.web.access.ExceptionTranslationFilter@480f1b59, org.springframework.security.web.access.intercept.AuthorizationFilter@183c6db3]
+2026-05-27 19:54:28.950 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter.initControllerAdviceCache - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-05-27 19:54:28.992 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-05-27 19:54:29.213 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port 5000 (http) with context path ''
+2026-05-27 19:54:29.222 [main] INFO  c.h.backend.HeleneBackendApplication.logStarted - Started HeleneBackendApplication in 19.357 seconds (process running for 21.461)
+2026-05-27 19:54:29.642 [main] DEBUG org.hibernate.SQL.logStatement - select count(*) from roles r1_0
+2026-05-27 19:54:30.380 [main] DEBUG org.hibernate.SQL.logStatement - select count(*) from categorias c1_0
+2026-05-27 20:10:21.419 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-27 20:10:21.421 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+2026-05-27 20:10:22.364 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.

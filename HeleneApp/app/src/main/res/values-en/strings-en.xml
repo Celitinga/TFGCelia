@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Helene</string>
+    <string name="app_brand">Helene Beauty</string>
+    <string name="app_brand_full">Helene Natural Cosmetics</string>
+    <string name="app_tagline">Discover your natural beauty with Helene</string>
+
+
+    <string name="menu_welcome">Welcome</string>
+    <string name="menu_user">User</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_orders">My orders</string>
+    <string name="menu_admin">Admin Panel</string>
+    <string name="menu_video">Our story</string>
+    <string name="menu_logout">Log out</string>
+    <string name="menu_instagram">Instagram</string>
+
+    <string name="bienvenido">Welcome</string>
+    <string name="menu_idioma_label">English</string>
+    <string name="buscar_hint">Search products...</string>
+    <string name="descubre_productos">DISCOVER OUR PRODUCTS</string>
+    <string name="categorias">Categories</string>
+    <string name="carrito">Cart</string>
+
+    <string name="login_title">Helene</string>
+    <string name="login_hint_username">Username</string>
+    <string name="login_hint_password">Password</string>
+    <string name="login_btn_access">Sign in</string>
+    <string name="login_btn_register">Sign up</string>
+
+    <string name="register_title">Helene</string>
+    <string name="register_subtitle">Create account</string>
+    <string name="register_hint_username">Username</string>
+    <string name="register_hint_email">Email address</string>
+    <string name="register_hint_password">Password</string>
+    <string name="register_hint_confirm_password">Confirm password</string>
+    <string name="register_btn_submit">Sign up</string>
+    <string name="register_btn_back">Back</string>
+
+    <string name="main_search_hint">Search products…</string>
+    <string name="main_menu_description">Menu</string>
+    <string name="main_cart_description">Cart</string>
+    <string name="main_discover_banner">DISCOVER OUR PRODUCTS</string>
+    <string name="main_categories_title">Categories</string>
+    <string name="main_welcome_text">Welcome!</string>
+    <string name="cat_facial">Facial</string>
+    <string name="cat_corporal">Body</string>
+    <string name="cat_serums">Serums</string>
+    <string name="cat_ofertas">Offers</string>
+
+    <string name="carrito_titulo">Your cart</string>
+    <string name="carrito_vacio">Your cart is empty 🛒</string>
+    <string name="carrito_total">Total: 0 €</string>
+    <string name="carrito_comprar">Buy</string>
+
+    <string name="category_title">Category</string>
+    <string name="category_search_hint">Search products…</string>
+    <string name="cart_description">Cart</string>
+
+    <string name="detail_luxury_tag">LUXURY COLLECTION</string>
+    <string name="detail_product_name">Product name</string>
+    <string name="detail_product_price">49.99 €</string>
+    <string name="detail_description_title">Description</string>
+    <string name="detail_product_description">Product description…</string>
+    <string name="detail_btn_edit">Edit product</string>
+    <string name="detail_btn_back">Back</string>
+    <string name="detail_btn_buy">Buy</string>
+
+    <string name="shipping_title">Shipping address</string>
+    <string name="shipping_subtitle">Enter your shipping address</string>
+    <string name="shipping_section_personal">Personal details</string>
+    <string name="shipping_hint_full_name">Full name</string>
+    <string name="shipping_hint_phone">Contact phone</string>
+    <string name="shipping_section_address">Address</string>
+    <string name="shipping_hint_street">Street</string>
+    <string name="shipping_hint_number">Number</string>
+    <string name="shipping_hint_floor">Apartment / Floor (optional)</string>
+    <string name="shipping_section_location">Location</string>
+    <string name="shipping_hint_city">City</string>
+    <string name="shipping_hint_zip">Postcode</string>
+    <string name="shipping_hint_province">State / Province</string>
+    <string name="shipping_hint_country">Country</string>
+    <string name="shipping_default_country">Spain</string>
+    <string name="shipping_hint_instructions">Special instructions (optional)</string>
+    <string name="shipping_save_address">Save this address for future orders</string>
+    <string name="shipping_btn_cancel">Cancel</string>
+    <string name="shipping_btn_continue">Continue</string>
+
+    <string name="payment_title">Select payment method</string>
+    <string name="payment_subtitle">Choose your payment method</string>
+    <string name="payment_paypal_title">PayPal</string>
+    <string name="payment_paypal_desc">Pay with your PayPal account</string>
+    <string name="payment_card_title">Credit / Debit card</string>
+    <string name="payment_card_desc">Visa, Mastercard, American Express</string>
+    <string name="payment_cash_title">Cash on delivery</string>
+    <string name="payment_cash_desc">Pay in cash when you receive your order</string>
+    <string name="payment_summary_title">Order summary</string>
+    <string name="payment_subtotal">Subtotal</string>
+    <string name="payment_shipping">Shipping</string>
+    <string name="payment_total">TOTAL</string>
+    <string name="payment_subtotal_value">0.00 €</string>
+    <string name="payment_shipping_value">4.95 €</string>
+    <string name="payment_total_value">0.00 €</string>
+    <string name="payment_btn_cancel">Cancel</string>
+    <string name="payment_btn_pay">Pay now</string>
+
+    <string name="profile_title">My Profile</string>
+    <string name="profile_username">Username</string>
+    <string name="profile_email_placeholder">user@helene.com</string>
+    <string name="profile_member_since">Member since: January 2024</string>
+    <string name="profile_btn_edit">Edit Profile</string>
+    <string name="profile_btn_back">Back to home</string>
+
+    <string name="orders_title">My orders</string>
+    <string name="historial_subtitulo">Check the status of your orders</string>
+
+    <string name="admin_panel_title">User Panel</string>
+    <string name="admin_btn_new">New</string>
+    <string name="admin_registered_users">Registered users</string>
+    <string name="admin_manage_users">Manage the application users</string>
+
+    <string name="video_header_title">Helene Natural Cosmetics</string>
+    <string name="video_intro_title">Our story</string>
+    <string name="video_descripcion">Discover the origin of Helene and our philosophy of natural and sustainable beauty.</string>
+    <string name="video_info_natural">100% natural cosmetics</string>
+    <string name="video_info_artesanal">Artisanal and sustainable production</string>
+    <string name="video_info_instagram">Follow us on Instagram (helene_cosmeticanatural)</string>
+
+    <string name="dialog_create_user_title">New User</string>
+    <string name="dialog_create_user_subtitle">Fill in the new user\'s details</string>
+    <string name="dialog_create_user_label_username">Username</string>
+    <string name="dialog_create_user_hint_username">Enter the username</string>
+    <string name="dialog_create_user_label_password">Password</string>
+    <string name="dialog_create_user_hint_password">Enter the password</string>
+    <string name="dialog_create_user_label_email">Email address</string>
+    <string name="dialog_create_user_hint_email">Enter the email</string>
+    <string name="dialog_create_user_label_rol">User role</string>
+    <string name="dialog_create_user_btn_cancel">Cancel</string>
+    <string name="dialog_create_user_btn_save">Save</string>
+
+    <string name="dialog_edit_profile_title">Edit Profile</string>
+    <string name="dialog_edit_profile_subtitle">Update your personal details</string>
+    <string name="dialog_edit_profile_label_username">Username</string>
+    <string name="dialog_edit_profile_hint_username">Username</string>
+    <string name="dialog_edit_profile_label_email">Email address</string>
+    <string name="dialog_edit_profile_hint_email">Email address</string>
+    <string name="dialog_edit_profile_btn_cancel">Cancel</string>
+    <string name="dialog_edit_profile_btn_save">Save</string>
+
+    <string name="dialog_edit_product_title">Edit Product</string>
+    <string name="dialog_edit_product_subtitle">Update the product details</string>
+    <string name="dialog_edit_product_label_name">Product name</string>
+    <string name="dialog_edit_product_hint_name">Name</string>
+    <string name="dialog_edit_product_label_desc">Description</string>
+    <string name="dialog_edit_product_hint_desc">Description</string>
+    <string name="dialog_edit_product_label_price">Price and discount</string>
+    <string name="dialog_edit_product_hint_price">Price (€)</string>
+    <string name="dialog_edit_product_hint_discount">Discount (%)</string>
+    <string name="dialog_edit_product_label_image">Image URL</string>
+    <string name="dialog_edit_product_hint_image">Image URL</string>
+    <string name="dialog_edit_product_btn_cancel">Cancel</string>
+    <string name="dialog_edit_product_btn_save">Save</string>
+
+    <string name="dialog_card_title">Card details</string>
+    <string name="dialog_card_hint_number">Card number</string>
+    <string name="dialog_card_hint_expiry">MM/YY</string>
+    <string name="dialog_card_hint_cvv">CVV</string>
+    <string name="dialog_card_btn_cancel">Cancel</string>
+    <string name="dialog_card_btn_pay">Pay</string>
+
+    <string name="item_cart_product_name">Product</string>
+    <string name="item_cart_product_price">10.99 €</string>
+    <string name="item_cart_subtotal">Subtotal: 10.99 €</string>
+    <string name="item_cart_btn_add_desc">add</string>
+    <string name="item_cart_btn_remove_desc">remove</string>
+
+    <string name="item_product_name">Product name</string>
+    <string name="item_product_desc">Brief description</string>
+    <string name="item_product_price">19.99€</string>
+    <string name="item_product_btn_more">View more</string>
+
+    <string name="item_order_number">Order #12345</string>
+    <string name="item_order_status">PAID</string>
+    <string name="item_order_total_label">Total</string>
+    <string name="item_order_total_value">25.99 €</string>
+    <string name="item_order_date">20 May 2026</string>
+</resources>
